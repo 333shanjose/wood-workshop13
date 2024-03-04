@@ -15,7 +15,7 @@ const app=express()
 const { response } = require('express');
 var session=require('express-session');
 const corsOptions = {
-  origin: 'https://wood-workshop20.vercel.app/',  //Your Client, do not write '*'
+  origin: 'https://wood-workshop20.vercel.app',  //Your Client, do not write '*'
   credentials: true,
 };
 
